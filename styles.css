@@ -93,3 +93,110 @@ a {
     max-height: 100%;
     object-fit: cover;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 30px 80px 30px;
+    color: #1F2937;
+
+}
+
+.info h2 {
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+}
+
+.placeholder {
+    border-radius: 10px;
+    border-color: #3882F6;
+    border-style: solid;    
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    background-color: #E5E7EB;
+    padding: 100px 150px;
+}
+
+.quote > p {
+    font-size: 30px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote > p:last-child {
+    font-size: 26px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 80px 160px;
+    border-radius: 10px;
+    padding: 40px 60px;
+    color: #F9FAF8;
+    gap: 40px;
+}
+
+.call-to-action-text {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.call-to-action-text p:first-child {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.call-to-action-text p:last-child {
+    font-size: 16px;
+    color: #E5E7EB;
+}
+
+.call-to-action button {
+    background-color: #3882F6;
+    border-color: #E5E7EB;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    padding: 30px 0;
+    color: #E5E7EB;
+}
